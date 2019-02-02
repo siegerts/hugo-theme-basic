@@ -1,0 +1,22 @@
+baseurl = ""
+title = ""
+theme ="hugo-theme-basic"
+languageCode = "en-us"
+googleAnalytics = ""
+copyright = ""
+
+[params]
+  twitter = ""
+
+[Permalinks]
+  post = "post/:slug"
+
+[privacy]
+  [privacy.googleAnalytics]
+    anonymizeIP = true
+    respectDoNotTrack = true
+    useSessionStorage = true
+  [privacy.twitter]
+    enableDNT = true
+  [privacy.youtube]
+    privacyEnhanced = true

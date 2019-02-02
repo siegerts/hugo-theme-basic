@@ -1,0 +1,22 @@
+{{ partial "header.html" . }}
+<body
+  lang="{{ .Site.LanguageCode }}"
+  class="sans-serif w-90 w-60-ns center center-ns mv2 mv5-ns"
+>
+  <section id="main">
+    <div>
+      <h1 id="title">{{ .Title }}</h1>
+      {{ range.Data.Pages }}
+      <ul id="list" class="pl0">
+        <li class="list pl0 lh-copy">
+          <a class="f3 dib pa1 black" href="{{ .Permalink}}">{{ .Title }}</a>
+          <span class="f6 gray">{{ .Date.Format "2006-01-02" }}</span>
+        </li>
+      </ul>
+      {{ end }}
+    </div>
+  </section>
+
+  <aside id="meta"></aside>
+  {{ partial "footer.html" . }}
+</body>

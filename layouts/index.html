@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html
+  class=""
+  lang="{{ .Site.LanguageCode }}"
+  prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#"
+>
+  <head>
+    <meta charset="utf-8" />
+
+    {{ partial "meta.html" . }}
+
+    <base href="{{ .Site.BaseURL }}" />
+    <title>{{ .Site.Title }}</title>
+    <link rel="canonical" href="{{ .Permalink }}" />
+    <link
+      href="{{ .RSSLink }}"
+      rel="alternate"
+      type="application/rss+xml"
+      title="{{ .Site.Title }}"
+    />
+
+    {{ partial "head_includes.html" . }}
+  </head>
+  <body
+    lang="{{ .Site.LanguageCode }}"
+    class="sans-serif w-90 w-60-ns center center-ns mv2 mv5-ns"
+  >
+    <section id="main">
+      <div>
+        <h1 id="title">☕ 🐶 {{.Site.Title}}</h1>
+        <div class="lh-copy">
+          <a class="f3 dib pa1 black" href="/post">posts</a>
+        </div>
+      </div>
+    </section>
+
+    {{ partial "footer.html" . }}
+  </body>
+</html>
