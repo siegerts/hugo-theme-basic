@@ -6,15 +6,26 @@
   itemtype="http://schema.org/Article"
 >
   {{ $baseurl := .Site.BaseURL }}
+  <span class="b">/ </span>
+  <a href="{{ .Site.BaseURL  }}" class="b bb bw1 pb1 no-underline black">{{ .Site.Title }}</a>
+  <span class="b"> / </span>
+  <a href="/blog" class="b bb bw1 pb1 no-underline black">blog</a>
 
-  <section id="main">
+  <section id="main" class="mt5">
     <h1 itemprop="name" id="title">{{ .Title }}</h1>
-    <span class="f6 gray">{{ .Date.Format "2006-01-02" }}</span>
+    <span class="f6 gray">{{ .Date.Format "January 2, 2006" }}</span>
     
-      <article itemprop="articleBody" id="content" class="w-100 lh-copy">
+      <article itemprop="articleBody" id="content" class="w-90 lh-copy">
         {{ .Content }}
       </article>
-    </div>
+    
+
+
+      <span class="f6 gray mt3" title="Lastmod: {{ .Lastmod.Format "January 2, 2006" }}. Published at: {{ .PublishDate.Format "2006-01-02" }}.">
+          {{ if ne .Lastmod .PublishDate }}
+            Modified : {{ dateFormat "January 2, 2006" .Lastmod }}
+          {{ end }}
+      </span>
   </section>
 
   {{ partial "footer.html" . }}

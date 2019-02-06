@@ -3,14 +3,24 @@
   lang="{{ .Site.LanguageCode }}"
   class="sans-serif w-90 w-60-ns center center-ns mv2 mv5-ns"
 >
-  <section id="main">
+  <span class="b">/ </span>
+  <a
+    href="{{ .Site.BaseURL  }}"
+    class="b bw1 bb pb1 no-underline black"
+    >{{ .Site.Title  }}</a
+  >
+  <section id="main" class="mt5">
     <div>
-      <h1 id="title">{{ .Title }}</h1>
+      <!-- <h1 id="title">{{ .Title }}</h1> -->
       {{ range.Data.Pages }}
       <ul id="list" class="pl0">
         <li class="list pl0 lh-copy">
-          <a class="f3 dib pa1 black" href="{{ .Permalink}}">{{ .Title }}</a>
-          <span class="f6 gray">{{ .Date.Format "2006-01-02" }}</span>
+          <a
+            class="f3 b dib pa1 black no-underline"
+            href="{{ .Permalink}}"
+            >{{ .Title }}</a
+          >
+          <span class="f6 gray">{{ .Date.Format "January 2, 2006" }}</span>
         </li>
       </ul>
       {{ end }}

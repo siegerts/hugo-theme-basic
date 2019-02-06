@@ -13,8 +13,8 @@
 <!-- open graph -->
 <meta property="og:type" content="article" />
 <meta property="og:description" content="{{ .Description }}" />
-<meta property="og:title" content="{{ .Title }} : xiegert.com" />
-<meta property="og:site_name" content="xiegert" />
+<meta property="og:title" content="{{ .Title }}" />
+<meta property="og:site_name" content="{{ .Site.Title }}" />
 <meta property="og:image" content="" />
 <meta property="og:image:type" content="image/jpeg" />
 <meta property="og:image:width" content="" />
@@ -34,10 +34,15 @@
 {{ end }}
 
 <meta name="twitter:card" content="summary" />
-
-<meta name="twitter:site" content="" />
-<meta name="twitter:title" content="{{ .Title }} : xiegert.com" />
-<meta name="twitter:creator" content="{{ .Site.Params.twitter }}" />
-<meta name="twitter:description" content="{{ .Description }}" />
+<meta name="twitter:site" content="@{{ .Site.Params.twitter }}" />
+<meta name="twitter:creator" content="@{{ .Site.Params.twitter }}" />
+<meta
+  name="twitter:title"
+  content="{{ if .Title }}{{ .Title }} | {{ end }}{{ .Site.Title }}"
+/>
+<meta
+  name="twitter:description"
+  content="{{ .Description | default .Summary }}|{{ .Site.Params.Description }}"
+/>
 <meta name="twitter:image:src" content="" />
-<meta name="twitter:domain" content="xiegert.com" />
+<meta name="twitter:domain" content="{{ .Permalink }}" />
