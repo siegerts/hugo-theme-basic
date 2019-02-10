@@ -7,11 +7,11 @@ licenselink = "https://github.com/siegerts/hugo-theme-basic/blob/master/LICENSE"
 description = "Basic blog theme styled with minimal tachyons"
 homepage = "https://github.com/siegerts/hugo-theme-basic"
 tags = ["minimal", "tachyons", "blog", "syntax highlighting", "google analytics", "plain", "clean", "starter"]
-features = []
+features = ["blog", "syntax highlighting", "google analytics", "tachyons"]
 min_version = "0.41"
 
 [author]
   name = "Stephen Siegert"
-  homepage = "https://github.com/siegerts/hugo-theme-basic"
+  homepage = "https://xiegerts.com"
 
 

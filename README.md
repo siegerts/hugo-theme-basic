@@ -6,16 +6,19 @@ Basic personal site theme styled with minimal tachyons.
 
 - ✨ Basic — HTML with a dash of style + emojis stand out more
 - 🌯 Extensible — Easily leverage [tachyons](https://tachyons.io/components/) to spice it up
+- 🥑 Syntax Highlighting - When you get the urge to code
 
 ### Index
-![](https://github.com/siegerts/hugo-theme-basic/blob/master/screenshotIndex.png)
+
+![](https://github.com/siegerts/hugo-theme-basic/blob/master/images/screenshot.png)
 
 ### Blog
-![](https://github.com/siegerts/hugo-theme-basic/blob/master/screenshotBlog.png)
+
+![](https://github.com/siegerts/hugo-theme-basic/blob/master/images/screenshotBlog.png)
 
 ### Post
-![](https://github.com/siegerts/hugo-theme-basic/blob/master/screenshotPost.png)
 
+![](https://github.com/siegerts/hugo-theme-basic/blob/master/images/tn.png)
 
 ## Getting started
 
