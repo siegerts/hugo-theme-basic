@@ -6,13 +6,13 @@ license = "MIT"
 licenselink = "https://github.com/siegerts/hugo-theme-basic/blob/master/LICENSE"
 description = ""
 homepage = "https://github.com/siegerts/hugo-theme-basic"
-tags = []
+tags = ["minimal", "tachyons", "blog", "syntax highlighting", "google analytics", "plain", "clean", "starter"]
 features = []
 min_version = "0.41"
 
 [author]
-  name = "S. Siegert"
-  homepage = ""
+  name = "Stephen Siegert"
+  homepage = "https://github.com/siegerts/hugo-theme-basic"
 
 # If porting an existing theme
 [original]

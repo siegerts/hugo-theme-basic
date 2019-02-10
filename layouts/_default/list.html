@@ -11,9 +11,9 @@
   >
   <section id="main" class="mt5">
     <div>
-      <!-- <h1 id="title">{{ .Title }}</h1> -->
-      <ul id="list" class="pl0"></ul>
-      {{ range.Data.Pages }}
+      <ul id="list" class="pl0">
+        <!-- prettier-ignore -->
+        {{ range.Data.Pages.ByPublishDate }}
         <li class="list pl0 lh-copy">
           <a
             class="f3 b dib pa1 black no-underline"
@@ -22,11 +22,11 @@
           >
           <span class="f6 gray">{{ .Date.Format "January 2, 2006" }}</span>
         </li>
-      {{ end }}
-    </ul>
+        <!-- prettier-ignore -->
+        {{ end }}
+      </ul>
     </div>
   </section>
 
-  <aside id="meta"></aside>
   {{ partial "footer.html" . }}
 </body>
