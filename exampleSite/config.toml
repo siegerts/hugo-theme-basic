@@ -1,15 +1,26 @@
-baseurl = ""
-title = ""
+baseurl = "www.example.com"
+title = "Example"
 theme ="hugo-theme-basic"
 languageCode = "en-us"
 googleAnalytics = ""
-copyright = ""
+copyright = "© 2016-19 Example"
 
 [params]
-  twitter = ""
+  titleEmoji = "🎉"
+  twitter = "exampleHandle"
 
 [Permalinks]
   post = "post/:slug"
+
+[[params.menu]]
+  name = "blog"
+  url = "blog/"
+  
+
+[[params.menu]]
+  name = "about"
+  url = "page/about"
+  
 
 [privacy]
   [privacy.googleAnalytics]
