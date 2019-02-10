@@ -19,7 +19,7 @@ copyright = "© 2016-19 Example"
 
 [[params.menu]]
   name = "about"
-  url = "page/about"
+  url = "page/about-hugo"
   
 
 [privacy]
