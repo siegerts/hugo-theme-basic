@@ -33,20 +33,11 @@ Take a look at the sample `config.toml`file located in the `exampleSite` folder.
 
 #### Content Types
 
-**Post**
-<br />
-Used for blog posts. Posts are listed on the `/blog` page. Run `hugo new post/<post-name>.md` to create a post.
-<br />
-
-**Page** _Optional_
-<br />
-Used for site pages. Run `hugo new page/<page-name>.md` to create a page.
-<br />
-
-**Project** _Optional_
-<br />
-Used for project pages. Extend project list with `/layouts/section/project.html`. Run `hugo new project/<project-name>.md` to create a page.
-<br />
+| Type        | Description                                                                       | Command                              |
+| ----------- | --------------------------------------------------------------------------------- | ------------------------------------ |
+| **Post**    | Used for blog posts. Posts are listed on the `/blog` page.                        | `hugo new post/<post-name>.md`       |
+| **Page**    | Used for site pages.                                                              | `hugo new page/<page-name>.md`       |
+| **Project** | Used for project pages. Extend project list with `/layouts/section/project.html`. | `hugo new project/<project-name>.md` |
 
 #### Menu
 
