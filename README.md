@@ -6,7 +6,6 @@ Basic personal site theme styled with minimal tachyons.
 
 - ✨ Basic — HTML with a dash of style + emojis stand out more
 - 🌯 Extensible — Easily leverage [tachyons](https://tachyons.io/components/) to spice it up
--
 
 ## Getting started
 
