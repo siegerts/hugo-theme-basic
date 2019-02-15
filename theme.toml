@@ -4,18 +4,14 @@
 name = "Basic"
 license = "MIT"
 licenselink = "https://github.com/siegerts/hugo-theme-basic/blob/master/LICENSE"
-description = ""
+description = "Basic blog theme styled with minimal tachyons"
 homepage = "https://github.com/siegerts/hugo-theme-basic"
-tags = []
-features = []
+tags = ["minimal", "tachyons", "blog", "syntax highlighting", "google analytics", "plain", "clean", "starter"]
+features = ["blog", "syntax highlighting", "google analytics", "tachyons"]
 min_version = "0.41"
 
 [author]
-  name = "S. Siegert"
-  homepage = ""
+  name = "Stephen Siegert"
+  homepage = "https://xiegerts.com"
 
-# If porting an existing theme
-[original]
-  name = ""
-  homepage = ""
-  repo = ""
+

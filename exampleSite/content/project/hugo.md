@@ -1,6 +1,6 @@
 +++
-Title = "{{ replace .Name "-" " " | title }}"
-Date = {{ .Date }}
+Title = "Hugo"
+Date = 2019-02-10T16:53:06-05:00
 Description = ""
 Tags = ["Development", ""]
 Topics = ["Development", ""]

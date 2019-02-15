@@ -27,19 +27,18 @@
   >
     <section id="main">
       <div>
-        <h1 id="title" class="f3 pl3">{{.Site.Title}} ☕ 🐶</h1>
-        <ul>
+        <h1 id="title" class="f3">
+          {{.Site.Title}} {{ .Site.Params.TitleEmoji }}
+        </h1>
+        <ul class="list pl0">
+          <!-- pages -->
+          <!-- prettier-ignore -->
+          {{ range.Site.Params.menu }}
           <li class="b mv3">
-            <a class="f3 b pa1 black" href="/blog">blog</a>
+            <a class="f3 b pa1 black" href="{{ .url }}">{{ .name }}</a>
           </li>
-          <li class="b mv3">
-            <a class="f3 b pa black " href="https://github.com/siegerts"
-              >github</a
-            >
-          </li>
-          <li class="b mv3">
-            <a class="f3 b black" href="https://gitlab.com/siegerts">gitlab</a>
-          </li>
+          <!-- prettier-ignore -->
+          {{ end }}
         </ul>
       </div>
     </section>

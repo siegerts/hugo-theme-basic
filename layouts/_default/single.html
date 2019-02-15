@@ -1,11 +1,11 @@
 {{ partial "header.html" . }}
 <body
   lang="{{ .Site.LanguageCode }}"
-  class="sans-serif w-90 w-60-ns center center-ns mv2 mv5-ns"
+  class="sans-serif w-90 w-80-m w-60-ns center mv2 mv5-ns"
   itemscope
   itemtype="http://schema.org/Article"
 >
-  {{ $baseurl := .Site.BaseURL }}
+  
   <span class="b">/ </span>
   <a href="{{ .Site.BaseURL  }}" class="b bb bw1 pb1 no-underline black">{{ .Site.Title }}</a>
   <span class="b"> / </span>
@@ -18,8 +18,6 @@
       <article itemprop="articleBody" id="content" class="w-90 lh-copy">
         {{ .Content }}
       </article>
-    
-
 
       <span class="f6 gray mt3" title="Lastmod: {{ .Lastmod.Format "January 2, 2006" }}. Published at: {{ .PublishDate.Format "2006-01-02" }}.">
           {{ if ne .Lastmod .PublishDate }}
