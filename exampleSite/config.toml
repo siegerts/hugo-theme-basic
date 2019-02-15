@@ -3,10 +3,11 @@ title = "Example"
 theme ="hugo-theme-basic"
 languageCode = "en-us"
 googleAnalytics = ""
+enableEmoji = true 
 copyright = "© 2016-19 Example"
 
 [params]
-  titleEmoji = "🎉"
+  titleEmoji = ":tada:"
   twitter = "exampleHandle"
 
 [Permalinks]

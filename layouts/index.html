@@ -28,12 +28,12 @@
     <section id="main">
       <div>
         <h1 id="title" class="f3">
-          {{.Site.Title}} {{ .Site.Params.TitleEmoji }}
+          {{ .Site.Title }} {{ emojify .Site.Params.TitleEmoji }}
         </h1>
         <ul class="list pl0">
           <!-- pages -->
           <!-- prettier-ignore -->
-          {{ range.Site.Params.menu }}
+          {{ range .Site.Params.menu }}
           <li class="b mv3">
             <a class="f3 b pa1 black" href="{{ .url }}">{{ .name }}</a>
           </li>
