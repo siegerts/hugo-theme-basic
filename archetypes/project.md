@@ -1,9 +1,9 @@
 +++
-Title = "{{ replace .Name "-" " " | title }}"
-Date = {{ .Date }}
-Description = ""
-Tags = ["Development", ""]
-Topics = ["Development", ""]
+title = "{{ replace .Name "-" " " | title }}"
+date = {{ .Date }}
+description = ""
+tags = ["Development"]
+categories = ["Development"]
 download_url = "http://github.com/USERNAME/PROJECTNAME"
 project_description = "DESC"
 project_name = "PROJECTNAME"

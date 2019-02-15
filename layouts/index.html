@@ -28,7 +28,7 @@
     <section id="main">
       <div>
         <h1 id="title" class="f3">
-          {{ .Site.Title }} {{ emojify .Site.Params.TitleEmoji }}
+          {{ .Site.Title }} {{ .Site.Params.TitleEmoji | emojify }}
         </h1>
         <ul class="list pl0">
           <!-- pages -->

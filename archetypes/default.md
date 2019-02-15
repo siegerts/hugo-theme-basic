@@ -2,6 +2,6 @@
 title = {{ replace .Name "-" " " | title }}
 description = ""
 tags = ["development"]
-topics = ["Development"]
+categories = ["Development"]
 date = {{ .Date }}
 +++
