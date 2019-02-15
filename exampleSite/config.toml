@@ -6,6 +6,11 @@ googleAnalytics = ""
 enableEmoji = true 
 copyright = "© 2016-19 Example"
 
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+
 [params]
   titleEmoji = ":tada:"
   twitter = "exampleHandle"
