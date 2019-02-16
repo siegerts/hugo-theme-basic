@@ -2,14 +2,14 @@
 
 Basic personal site theme styled with minimal tachyons, syntax highlighting, and blog series configuration.
 
+![](https://github.com/siegerts/hugo-theme-basic/blob/master/images/screenshot.png)
+
 ## Features
 
 - ✨ Basic — HTML with a dash of style + emoji
 - 🌯 Extensible — Easily leverage [tachyons](https://tachyons.io/components/) to add more spice
 - 🗞️ `series` taxonomy - Automatically group posts and display within an isolated taxonomy type
 - 🥑 Syntax Highlighting - It's there when you need it
-
-![](https://github.com/siegerts/hugo-theme-basic/blob/master/images/screenshot.png)
 
 ## Installation
 
@@ -59,6 +59,8 @@ An extra _taxonomy_, `series`, is added to allow for the grouping of blog posts.
   series = "series"
   tag = "tags"
 ```
+
+### _Series read more_
 
 ![](https://github.com/siegerts/hugo-theme-basic/blob/master/images/series.png)
 
