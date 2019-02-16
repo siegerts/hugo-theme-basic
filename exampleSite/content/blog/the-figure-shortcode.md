@@ -2,8 +2,7 @@
 title: 'The "figure" Shortcode'
 date: 2018-12-24T12:29:41+08:00
 draft: false
-featuredImg: ""
-tags: 
+tags:
   - demo
   - image
 ---
@@ -14,9 +13,9 @@ https://gohugo.io/content-management/shortcodes/#figure
 
 This theme has 3 CSS classes made for figure elements:
 
-* `big`: images will break the width limit of main content area.
-* `left`: images will float to the left.
-* `right`: images will float to the right.
+- `big`: images will break the width limit of main content area.
+- `left`: images will float to the left.
+- `right`: images will float to the right.
 
 If a figure has no class set, the image will behave just like a normal markdown image: `![]()`.
 

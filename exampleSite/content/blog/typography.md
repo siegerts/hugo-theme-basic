@@ -2,8 +2,7 @@
 title: "Typography"
 date: 2018-09-29T11:36:33+08:00
 draft: false
-featuredImg: ""
-tags: 
+tags:
   - Demo
   - Typography
 ---
@@ -16,9 +15,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 Inline styles：
 
-**strong**, *emphasis*, ***strong and emphasis***,`code`, <u>underline</u>, ~~strikethrough~~, :joy:🤣, $\LaTeX$, X^2^, H~2~O, ==highlight==, [Link](https://example.com), and image:
-
-![img](https://picsum.photos/600/400/?random)
+**strong**, _emphasis_, **_strong and emphasis_**,`code`, <u>underline</u>, ~~strikethrough~~, :joy:🤣, $\LaTeX$, X^2^, H~2~O, ==highlight==, [Link](https://example.com), and image:
 
 ---
 
@@ -40,30 +37,30 @@ Table:
 
 | Left-Aligned  | Center Aligned  | Right Aligned |
 | :------------ | :-------------: | ------------: |
-| col 3 is      | some wordy text |         $1600 |
-| col 2 is      |    centered     |           $12 |
-| zebra stripes |    are neat     |            $1 |
+| col 3 is      | some wordy text |        \$1600 |
+| col 2 is      |    centered     |          \$12 |
+| zebra stripes |    are neat     |           \$1 |
 
 Lists:
 
-* Unordered list item 1.
-* Unordered list item 2.
+- Unordered list item 1.
+- Unordered list item 2.
 
 1. ordered list item 1.
 2. ordered list item 2.
-   + sub-unordered list item 1.
-   + sub-unordered list item 2.
-     + [x] something is DONE.
-     + [ ] something is NOT DONE.
+   - sub-unordered list item 1.
+   - sub-unordered list item 2.
+     - [x] something is DONE.
+     - [ ] something is NOT DONE.
 
 Syntax Highlighting:
 
 ```javascript
-var num1, num2, sum
-num1 = prompt("Enter first number")
-num2 = prompt("Enter second number")
-sum = parseInt(num1) + parseInt(num2) // "+" means "add"
-alert("Sum = " + sum)  // "+" means combine into a string
+var num1, num2, sum;
+num1 = prompt("Enter first number");
+num2 = prompt("Enter second number");
+sum = parseInt(num1) + parseInt(num2); // "+" means "add"
+alert("Sum = " + sum); // "+" means combine into a string
 ```
 
 [^1]: From https://en.wikipedia.org/wiki/Apple

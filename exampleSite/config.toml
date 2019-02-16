@@ -1,10 +1,10 @@
 baseurl = "https://www.example.com"
-title = "Example"
+title = "Example Site"
 theme ="hugo-theme-basic"
 languageCode = "en-us"
 googleAnalytics = ""
 enableEmoji = true 
-copyright = "© 2016-19 Example"
+copyright = "© 2016-19 Example Site Author"
 
 [taxonomies]
   category = "categories"
@@ -21,6 +21,10 @@ copyright = "© 2016-19 Example"
 [[params.menu]]
   name = "blog"
   url = "blog/"
+
+[[params.menu]]
+  name = "post series"
+  url = "series/"
   
 
 [[params.menu]]
