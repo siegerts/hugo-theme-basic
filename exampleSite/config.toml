@@ -1,10 +1,11 @@
 baseurl = "https://www.example.com"
-title = "Example Site"
+title = "Hugo Theme Basic"
 theme ="hugo-theme-basic"
 languageCode = "en-us"
-googleAnalytics = ""
+googleAnalytics = "UA-XXXXXXXXX-X"
 enableEmoji = true 
-copyright = "© 2016-19 Example Site Author"
+copyright = "© 2016-19 Hugo Theme Basic"
+description = "Basic personal site theme styled with minimal tachyons, syntax highlighting, and blog series configuration."
 
 [taxonomies]
   category = "categories"
@@ -13,7 +14,8 @@ copyright = "© 2016-19 Example Site Author"
 
 [params]
   titleEmoji = ":tada:"
-  twitter = "exampleHandle"
+  # change this!
+  twitter = "siegerts"
 
 [Permalinks]
   post = "post/:slug"
