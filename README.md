@@ -2,7 +2,13 @@
 
 Basic personal site theme styled with minimal tachyons, syntax highlighting, and blog series configuration.
 
-![](https://github.com/siegerts/hugo-theme-basic/blob/master/images/screenshot.png)
+## Demo
+
+[https://hugo-theme-basic.netlify.com/](https://hugo-theme-basic.netlify.com/)
+
+## Screenshot
+
+![](https://github.com/siegerts/hugo-theme-basic/blob/master/images/tn.png)
 
 ## Features
 
