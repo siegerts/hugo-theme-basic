@@ -51,8 +51,8 @@ Check out the sample `config.toml`file located in the [`exampleSite`](https://gi
 
 | Type        | Description                                                                                 | Command                              |
 | ----------- | ------------------------------------------------------------------------------------------- | ------------------------------------ |
-| **Post**    | Used for blog posts. Posts are listed on the `/blog` page.                                  | `hugo new post/<post-name>.md`       |
-| **Page**    | Used for site pages.                                                                        | `hugo new page/<page-name>.md`       |
+| **Post**    | Used for blog posts. Posts are listed on the `/post` page.                                  | `hugo new post/<post-name>.md`       |
+| **Page**    | Used for site pages.                                                                        | `hugo new <page-name>.md`            |
 | **Project** | Used for project pages. Extend project list by customizing `/layouts/section/project.html`. | `hugo new project/<project-name>.md` |
 
 ## Blog post series

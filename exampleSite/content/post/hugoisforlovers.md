@@ -6,7 +6,7 @@ tags = [
     "hugo",
     "development",
 ]
-date = "2014-04-02"
+date = 2014-04-02
 series = "Hugo 101"
 +++
 

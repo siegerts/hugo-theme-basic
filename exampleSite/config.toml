@@ -22,7 +22,7 @@ description = "Basic personal site theme styled with minimal tachyons, syntax hi
 
 [[params.menu]]
   name = "blog"
-  url = "blog/"
+  url = "post/"
 
 [[params.menu]]
   name = "post series"
@@ -31,7 +31,7 @@ description = "Basic personal site theme styled with minimal tachyons, syntax hi
 
 [[params.menu]]
   name = "about"
-  url = "page/about-hugo"
+  url = "about/"
   
 
 [privacy]
