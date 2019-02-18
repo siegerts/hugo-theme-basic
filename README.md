@@ -81,11 +81,13 @@ For example:
   name = "blog"
   url = "blog/"
 
+[[params.menu]]
+  name = "post series"
+  url = "series/"
 
 [[params.menu]]
   name = "about"
-  url = "page/about"
-
+  url = "about/"
 ```
 
 ## Syntax highlighting
