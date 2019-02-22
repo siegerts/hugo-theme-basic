@@ -19,6 +19,13 @@
         {{ .Content }}
       </article>
 
+      <!-- last modified note -->
+      <span class="f6 gray mv3" title="Lastmod: {{ .Lastmod.Format "January 2, 2006" }}. Published at: {{ .PublishDate.Format "2006-01-02" }}.">
+        {{ if ne .Lastmod .PublishDate }}
+          <span class="i">last modified</span> {{ dateFormat "January 2, 2006" .Lastmod }}
+        {{ end }}
+      </span>
+
       {{ if and (.Site.Taxonomies.series) (isset .Params "series") }}
         <section class="mt4">
           {{ $readMore := ":wave:" }}
@@ -48,11 +55,6 @@
         </section>
       {{ end }}
 
-      <span class="f6 gray mt3" title="Lastmod: {{ .Lastmod.Format "January 2, 2006" }}. Published at: {{ .PublishDate.Format "2006-01-02" }}.">
-        {{ if ne .Lastmod .PublishDate }}
-          Modified : {{ dateFormat "January 2, 2006" .Lastmod }}
-        {{ end }}
-      </span>
   </section>
 
   {{ partial "footer.html" . }}
