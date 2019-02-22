@@ -19,7 +19,7 @@
     <div>
       <ul id="list" class="pl0">
         <!-- prettier-ignore -->
-        {{ range .Data.Pages.ByPublishDate }}
+        {{ range .Data.Pages.ByDate.Reverse }}
         <li class="list pl0 lh-copy">
           <a
             class="f3 b dib black no-underline"
