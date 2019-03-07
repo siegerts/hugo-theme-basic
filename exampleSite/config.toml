@@ -3,7 +3,7 @@ title = "Hugo Theme Basic"
 theme ="hugo-theme-basic"
 languageCode = "en-us"
 googleAnalytics = "UA-XXXXXXXXX-X"
-enableEmoji = true 
+enableEmoji = true
 copyright = "© 2016-19 Hugo Theme Basic"
 description = "Basic personal site theme styled with minimal tachyons, syntax highlighting, and blog series configuration."
 
@@ -27,12 +27,12 @@ description = "Basic personal site theme styled with minimal tachyons, syntax hi
 [[params.menu]]
   name = "post series"
   url = "series/"
-  
+
 
 [[params.menu]]
   name = "about"
   url = "about/"
-  
+
 
 [privacy]
   [privacy.googleAnalytics]

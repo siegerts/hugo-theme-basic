@@ -2,10 +2,24 @@
     <div>
       <p class="f6 gray mt6 lh-copy">
         {{ .Site.Copyright }}
+        {{with .Site.Params.twitter}}
+          <span class="twitter">
+            <a href="https://twitter.com/{{.}}" rel="author">
+            <img src="/images/twitter.png" width="48" height="48" title="Twitter: {{.}}"
+            alt="Twitter"></a>
+          </span>
+        {{end}}
+        {{with .Site.Params.github}}
+          <span class="github">
+            <a href="https://github.com/{{.}}" rel="author">
+            <img src="/images/github.png" width="48" height="48" title="Github: {{.}}"
+            alt="GitHub"></a>
+          </span>
+        {{end}}
       </p>
     </div>
   </footer>
-  
+
   {{ partial "scripts.html" . }}
   </body>
   </html>
