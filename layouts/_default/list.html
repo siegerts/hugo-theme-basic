@@ -20,7 +20,10 @@
             href="{{ .Permalink}}"
             >{{ .Title }}</a
           >
-          <span class="f6 gray">{{ .Date.Format "January 2, 2006" }}</span>
+          <span
+            class="f6 gray db dib-ns"
+            >{{ .Date.Format "January 2, 2006" }}</span
+          >
         </li>
         <!-- prettier-ignore -->
         {{ end }}
