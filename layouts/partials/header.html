@@ -11,16 +11,17 @@
 
     <title>{{ .Title }}</title>
     <link rel="canonical" href="{{ .Permalink }}" />
-
+{{ $title := .Title }}
+{{ with .OutputFormats.Get "RSS" }}
     <link
-      href="{{ .RSSLink }}"
+      href="{{ .RelPermalink }}"
       rel="alternate"
       type="application/rss+xml"
-      title="{{ .Title }}"
+      title="{{ $title }}"
     />
-
+{{ end }}
     {{ partial "head_includes.html" . }}
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
   </head>
-</html>
+
