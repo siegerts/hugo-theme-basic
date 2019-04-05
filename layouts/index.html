@@ -11,13 +11,15 @@
 
     <title>{{ .Site.Title }}</title>
     <link rel="canonical" href="{{ .Permalink }}" />
+{{ $sitetitle := .Site.Title }}
+{{ with .OutputFormats.Get "RSS" }}
     <link
-      href="{{ .RSSLink }}"
+      href="{{ .RelPermalink }}"
       rel="alternate"
       type="application/rss+xml"
-      title="{{ .Site.Title }}"
+      title="{{ $sitetitle }}"
     />
-
+{{ end }}
     {{ partial "head_includes.html" . }}
   </head>
   <body
