@@ -17,8 +17,8 @@
     "accountablePerson" : "{{ with .Site.Params.author }}{{ . }}{{ end }}",
     "copyrightHolder" : "{{ with .Site.Params.author }}{{ . }}{{ end }}",
     "copyrightYear" : "{{ .Date.Format "2006" }}",
-    "datePublished": "{{ .Date }}",
-    "dateModified" : "{{ .Date }}",
+    "datePublished": "{{ .Date.Format "2006-01-02 15:04:05" }}",
+    "dateModified" : "{{ .Date.Format "2006-01-02 15:04:05" }}",
     "url" : "{{ .Permalink }}",
     "wordCount" : "{{ .WordCount }}",
     "keywords" : [ {{ if isset .Params "tags" }}{{ range .Params.tags }}"{{ . }}",{{ end }}{{ end }}"Website" ]
