@@ -6,7 +6,7 @@ license = "MIT"
 licenselink = "https://github.com/siegerts/hugo-theme-basic/blob/master/LICENSE"
 description = "Basic blog theme styled with minimal tachyons"
 homepage = "https://github.com/siegerts/hugo-theme-basic"
-tags = ["minimal", "tachyons", "blog", "responsive", "syntax highlighting", "google analytics", "plain", "clean", "starter"]
+tags = ["minimal", "tachyons", "blog", "responsive", "syntax highlighting", "google analytics", "plain", "clean", "starter", "rstats", "blogdown"]
 features = ["blog", "blog series", "syntax highlighting", "google analytics", "tachyons"]
 min_version = "0.41"
 

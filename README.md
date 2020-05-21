@@ -4,7 +4,7 @@ Basic personal site theme styled with minimal tachyons, syntax highlighting, and
 
 ## Demo
 
-[https://hugo-theme-basic.netlify.com/](https://hugo-theme-basic.netlify.com/)
+[https://hugo-theme-basic.netlify.app/](https://hugo-theme-basic.netlify.app/)
 
 ## Screenshot
 
